@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-27T08:27:43" hostname="IKOKSASUS" time="0.408">
+<testsuite name="CoffeeMachineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-27T11:06:23" hostname="IKOKSASUS" time="0.282">
   <properties/>
-  <testcase name="start" classname="CoffeeMachineTest" time="0.408"/>
+  <testcase name="start" classname="CoffeeMachineTest" time="0.282"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 
@@ -17,15 +17,13 @@ $550 of money
 
 Write action (buy, fill, take, remaining, exit):
 > buy
-
-What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 2
 I have enough resources, making you a coffee!
 
 Write action (buy, fill, take, remaining, exit):
 > buy
-
-What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 2
 Sorry, not enough water!
 
@@ -35,15 +33,14 @@ Write how many ml of water you want to add:
 > 1000
 Write how many ml of milk you want to add:
 > 0
-Write how many grams of coffee beans you want to add:
+Write how many ml of coffee beans you want to add:
 > 0
 Write how many disposable cups you want to add:
 > 0
 
 Write action (buy, fill, take, remaining, exit):
 > buy
-
-What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 2
 I have enough resources, making you a coffee!
 
@@ -63,6 +60,7 @@ $0 of money
 
 Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 ?[1;31m
 Start test 2?[0m
 
@@ -82,7 +80,7 @@ Write how many ml of water you want to add:
 > 3000
 Write how many ml of milk you want to add:
 > 3000
-Write how many grams of coffee beans you want to add:
+Write how many ml of coffee beans you want to add:
 > 3000
 Write how many disposable cups you want to add:
 > 3000
@@ -99,6 +97,7 @@ $550 of money
 
 Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 ?[1;31m
 Start test 3?[0m
 
@@ -114,8 +113,7 @@ $550 of money
 
 Write action (buy, fill, take, remaining, exit):
 > buy
-
-What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 1
 I have enough resources, making you a coffee!
 
@@ -131,6 +129,7 @@ $554 of money
 
 Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 ?[1;31m
 Start test 4?[0m
 
@@ -146,8 +145,7 @@ $550 of money
 
 Write action (buy, fill, take, remaining, exit):
 > buy
-
-What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 2
 I have enough resources, making you a coffee!
 
@@ -163,6 +161,7 @@ $557 of money
 
 Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 ?[1;31m
 Start test 5?[0m
 
@@ -178,8 +177,7 @@ $550 of money
 
 Write action (buy, fill, take, remaining, exit):
 > buy
-
-What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 3
 I have enough resources, making you a coffee!
 
@@ -195,6 +193,7 @@ $556 of money
 
 Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 ?[1;31m
 Start test 6?[0m
 
@@ -224,6 +223,7 @@ $0 of money
 
 Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 ?[1;31m
 Start test 7?[0m
 
@@ -239,10 +239,8 @@ $550 of money
 
 Write action (buy, fill, take, remaining, exit):
 > buy
-
-What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > back
-Sorry, not enough Incorrect operation!
 
 Write action (buy, fill, take, remaining, exit):
 > remaining
@@ -256,6 +254,7 @@ $550 of money
 
 Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

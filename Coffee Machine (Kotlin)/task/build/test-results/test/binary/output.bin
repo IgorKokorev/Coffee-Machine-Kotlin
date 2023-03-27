@@ -13,15 +13,13 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > buy
-
-CWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+XWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 2
 /I have enough resources, making you a coffee!
 
 2Write action (buy, fill, take, remaining, exit):
 > buy
-
-CWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+XWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 2
 Sorry, not enough water!
 
@@ -31,15 +29,14 @@
 > 1000
 ,Write how many ml of milk you want to add:
 > 0
-7Write how many grams of coffee beans you want to add:
+4Write how many ml of coffee beans you want to add:
 > 0
 1Write how many disposable cups you want to add:
 > 0
 
 2Write action (buy, fill, take, remaining, exit):
 > buy
-
-CWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+XWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 2
 /I have enough resources, making you a coffee!
 
@@ -59,6 +56,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 [1;31m
 Start test 2[0m
 
@@ -78,7 +76,7 @@
 > 3000
 ,Write how many ml of milk you want to add:
 > 3000
-7Write how many grams of coffee beans you want to add:
+4Write how many ml of coffee beans you want to add:
 > 3000
 1Write how many disposable cups you want to add:
 > 3000
@@ -95,6 +93,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 [1;31m
 Start test 3[0m
 
@@ -110,8 +109,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > buy
-
-CWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+XWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 1
 /I have enough resources, making you a coffee!
 
@@ -127,6 +125,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 [1;31m
 Start test 4[0m
 
@@ -142,8 +141,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > buy
-
-CWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+XWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 2
 /I have enough resources, making you a coffee!
 
@@ -159,6 +157,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 [1;31m
 Start test 5[0m
 
@@ -174,8 +173,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > buy
-
-CWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+XWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > 3
 /I have enough resources, making you a coffee!
 
@@ -191,6 +189,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 [1;31m
 Start test 6[0m
 
@@ -220,6 +219,7 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > exit
+buy
 [1;31m
 Start test 7[0m
 
@@ -235,10 +235,8 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > buy
-
-CWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:
+XWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
 > back
-(Sorry, not enough Incorrect operation!
 
 2Write action (buy, fill, take, remaining, exit):
 > remaining
@@ -252,3 +250,4 @@
 
 2Write action (buy, fill, take, remaining, exit):
 > exit
+buy
