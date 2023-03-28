@@ -14,15 +14,17 @@ val cmSelect: Map< String, Coffee> = mapOf("1" to espresso, "2" to latte, "3" to
 data class CMData(var water: Int, var milk: Int, var bean: Int,
                   var money: Int, var cups: Int)
 
-// Coffee Machine status
-val CMS_IDLE = 0
-val CMS_BUY = 1
-val CMS_FILL_WATER = 2
-val CMS_FILL_MILK = 3
-val CMS_FILL_BEANS = 4
-val CMS_FILL_CUPS = 5
+class CMException(s: String) :  Exception(s)
 
-class CoffeeMachine ( val resource: CMData, var staus: Int ) {
+class CoffeeMachine ( val resource: CMData, var staus: Int = 0) {
+
+    // Coffee Machine status
+    val CMS_IDLE = 0
+    val CMS_BUY = 1
+    val CMS_FILL_WATER = 2
+    val CMS_FILL_MILK = 3
+    val CMS_FILL_BEANS = 4
+    val CMS_FILL_CUPS = 5
 
     // perform the operation in input depending on the CM status
     fun doCM( inp: String) {
@@ -119,15 +121,14 @@ class CoffeeMachine ( val resource: CMData, var staus: Int ) {
     }
 }
 
-class CMException(s: String) :  Exception(s)
 
 fun main() {
     // creating a coffee machine with supplies and IDLE status
-    val cm = CoffeeMachine( CMData(400, 540, 120, 550, 9), CMS_IDLE )
+    val cm = CoffeeMachine( CMData(400, 540, 120, 550, 9) )
 
     do {
         // print the welcome message only if CM is idle
-        if (cm.staus == CMS_IDLE ) println("\nWrite action (buy, fill, take, remaining, exit):")
+        if (cm.staus == cm.CMS_IDLE ) println("\nWrite action (buy, fill, take, remaining, exit):")
         // reading input anyway
         val inp = readln()
         // if user wants to quit - buy
